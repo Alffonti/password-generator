@@ -3,8 +3,8 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 
 const passwordLength = 15
 
-const passwordEl1 = document.getElementById("password-el1")
-const passwordEl2 = document.getElementById("password-el2")
+const passwordEl1 = document.getElementById('password-el1')
+const passwordEl2 = document.getElementById('password-el2')
 const generatePasswords = document.getElementById('generate-passwords');
 
 generatePasswords.addEventListener('click', function generatePasswords() {
@@ -20,7 +20,7 @@ function getRandomCharacter() {
 }
 
 function generateRandomPassword() {
-    let randomPassword = ""
+    let randomPassword = ''
     for (let i = 0; i < passwordLength; i++) {
         randomPassword += getRandomCharacter()  
     }
