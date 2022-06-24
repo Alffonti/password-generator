@@ -20,10 +20,10 @@ function generateRandomPassword() {
 }
 
 function generatePasswords() {
-    let password1 = generateRandomPassword()
-    let password2 = generateRandomPassword()
-    passwordEl1.textContent = password1
-    passwordEl2.textContent = password2
+    let passwordOne = generateRandomPassword()
+    let passwordTwo = generateRandomPassword()
+    passwordEl1.textContent = passwordOne
+    passwordEl2.textContent = passwordTwo
 }
 
 
