@@ -1,0 +1,57 @@
+/* Follow this design: https://www.figma.com/file/epLeveAuVkKAOdM9TXk9Yn/Random-Password-Generator-(New-version)-(Copy) */
+
+body{
+    margin: 0;
+    padding: 120px 50px;
+    background: #1F2937;
+    color: #d5d4d8;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+h1{
+    color: white;
+    font-family: 'Karla', sans-serif;
+    font-size: 40px;
+    letter-spacing: -2.5%;
+    line-height: 40px;
+    margin: 0;
+}
+
+span{
+    color: #4ADF86
+}
+
+button{
+    background: #10B981;
+    color: white;
+    padding: 9px 17px;
+    margin: 50px 0 0;
+    border: none;
+    border-radius: 6px;
+}
+
+hr{
+    border: 1px solid #2F3E53;
+    margin: 35px 0;
+}
+
+#row{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+/* .utilityblueborder{
+    border: 1px dotted blue;
+} */
+
+#password-el1, #password-el2{
+    width: 200px;
+    min-height: 20px;
+    background: #273549;
+    color: #55F991;
+    padding: 8px 0;
+    border-radius: 6px;
+}
